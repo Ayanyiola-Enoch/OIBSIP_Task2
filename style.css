@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-::-webkit-scrollbar-thumb{
-    width: 50px;
+
+::-webkit-scrollbar{
+    background-color: #C3965B ;
+    width: 10px;
+    border-radius: 10px;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 .navcover{
@@ -33,13 +39,49 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.hrbtn{
+/* .hrbtn{
     width: 150px;
-}
+} */
 
 .hrbtn{
     width: 216px;
     height: 60px;
+}
+#skills{
+    background-color: #000;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.skillcon{
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr ; */
+    place-items: center;
+}
+#services h3, #skills h3, #footer h3{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.68px;
+    text-transform: uppercase;
+}
+.title{
+    position: relative;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 70%;
+    height: 5px;
+    background-color: #C3965B;
 }
 .lay p{
     color: #0F0F0F !important;
