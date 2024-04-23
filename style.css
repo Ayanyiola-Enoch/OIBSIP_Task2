@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar{
-    background-color: #C3965B ;
+    background: linear-gradient(191deg, rgba(195, 150, 91, 0.70) 0%, #9bac09 100.46%);
     width: 10px;
     border-radius: 10px;
 }
@@ -28,8 +28,7 @@ html{
     border: 1px solid #C3965B;
     background: linear-gradient(91deg,#9bac09 0%, rgba(195, 150, 91, 0.70) 100.46%);
     box-shadow: 0px 20px 40px 0px rgba(114, 100, 100, 0.30);
-    backdrop-filter: blur(10px);
-    /* margin-bottom: -17%; */
+    backdrop-filter: blur(10px);    
 }
 .lay h4{
     color: #0F0F0F;
@@ -39,9 +38,6 @@ html{
     line-height: normal;
     text-transform: uppercase;
 }
-/* .hrbtn{
-    width: 150px;
-} */
 
 .hrbtn{
     width: 216px;
@@ -59,7 +55,6 @@ html{
     overflow: hidden;
     height: 400px;
     display: grid;
-    /* grid-template-columns: 1fr 1fr ; */
     place-items: center;
 }
 #services h3, #skills h3, #footer h3{
@@ -114,18 +109,17 @@ html{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 5.12px;
+    letter-spacing: 6px;
     text-transform: uppercase;
 }
 #hero{
-    padding-top: 17% !important;
+    padding-top: 11% !important;
 }   
 .photo img{
     border-radius: 100%;
     width: 100px;
 }
 p.hello{
-    padding: 6px;
-    font-size: 55px;
-    font-style: normal;
+    font-size: 44px;
+    font-style: oblique;
 }
